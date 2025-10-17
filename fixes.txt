@@ -1,5 +1,1 @@
 This is fix file.
-
-add another marketing message section
-
-Add footer node
