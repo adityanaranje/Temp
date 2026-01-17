@@ -5,3 +5,5 @@ b = 2
 s = "Hello"
 def samplefunction():
     return 2
+
+print(samplefunctio)
