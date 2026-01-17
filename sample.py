@@ -3,3 +3,5 @@ print("Hello World")
 b = 2
 # comment dummy
 s = "Hello"
+def samplefunction():
+    return 2
