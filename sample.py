@@ -7,3 +7,5 @@ def samplefunction():
     return a + b + c
 
 print(samplefunction)
+
+c = 1 + 12
