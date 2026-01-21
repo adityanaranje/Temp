@@ -4,4 +4,9 @@ b = 2
 # comment dummy
 s = "Hello"
 def samplefunction():
-    return 2
+    return 1
+
+print(samplefunction)
+
+c = 1 + 12
+print(c)
