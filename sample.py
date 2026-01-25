@@ -8,5 +8,5 @@ def samplefunction():
 
 print(samplefunction)
 
+print(c)
 c = 1 + 12
-print(d+e)
