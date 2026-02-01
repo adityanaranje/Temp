@@ -9,4 +9,4 @@ def samplefunction():
 print(samplefunction)
 
 print(c)
-c = 1 + 12
+x = lambda y: y*1
