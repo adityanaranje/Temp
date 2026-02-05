@@ -4,7 +4,7 @@ b = 2
 # comment dummy
 s = "Hello"
 
-def add(a, b)-> int:
-    return a* b
+def divide(a, b)-> int:
+    return a * b
 
-print(add(3,4))
+print(divide(3,4))
