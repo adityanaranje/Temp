@@ -1,3 +1,5 @@
+import pandas as pd
+
 a = 1
 print("Hello World")
 b = 2
@@ -8,3 +10,6 @@ def divide(a, b)-> int:
     return a * b
 
 print(divide(3,4))
+
+x = pd.DataFrame()
+print(x)
