@@ -10,3 +10,10 @@ print(samplefunction)
 
 c = 1 + 12
 print(d+e)
+
+def add():
+    a= 1
+    b = 4
+    c= a + b
+    return c
+    
