@@ -3,10 +3,8 @@ print("Hello World")
 b = 2
 # comment dummy
 s = "Hello"
-def samplefunction():
-    return 1
 
-print(samplefunction)
+def add(a, b)-> int:
+    return a* b
 
-def add(a, b):
-    return a + b
+print(add(3,4))
