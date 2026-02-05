@@ -8,5 +8,5 @@ def samplefunction():
 
 print(samplefunction)
 
-print(c)
-x = lambda y: y*1
+def add(a, b):
+    return a + b
