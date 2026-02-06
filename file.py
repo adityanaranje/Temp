@@ -21,3 +21,5 @@ else:
 a = b / c
 
 b = (b / c) * c if c != 0 else 0  # or any other default value
+# can be rewritten as
+b = (b / c) * c if c != 0 else 0
