@@ -3,10 +3,12 @@ import os
 def delete_file(filename):
     os.remove(filename)
 
-b = 0
-c = 1
+b = 1
+c = 0
 
-if b != 0:
-    a = c / b
+dividend = 1
+divisor = 0
+if divisor != 0:
+    quotient = dividend / divisor
 else:
-    # Handle the case where b is zero, e.g., raise a custom error or return a default value
+    # Handle the case where divisor is zero, e.g., raise a custom error or return a default value
