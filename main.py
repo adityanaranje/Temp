@@ -11,7 +11,10 @@ os.remove(filename)
 
 def read_number(text):
     try:
-        return int(text)
+try:
+    return int(text)
+except ValueError:
+    return 0
     except:
         return 0
 =======
