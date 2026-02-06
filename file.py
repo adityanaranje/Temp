@@ -11,3 +11,7 @@ with open(output_file, "w") as f:
 x = 1
 for i in range(5):
     x = x + 2
+
+b = 1
+c = 0
+a - b / c
