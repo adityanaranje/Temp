@@ -12,6 +12,9 @@ x = 1
 for i in range(5):
     x = x + 2
 
-b = 1
-c = 0
-a - b / c
+b = 0
+c = 1
+if b != 0:
+    a = c / b
+else:
+    # Handle the case where b is 0, e.g., raise an exception or assign a default value
