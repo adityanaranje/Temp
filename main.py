@@ -11,6 +11,10 @@ os.remove(filename)
 
 
 def read_number(text):
+    try:
+        return int(text)
+    except ValueError:
+        return 0
     """Returns the integer value of the input text, or 0 if it's not a valid number."""
     try:
         return int(text)
