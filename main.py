@@ -15,7 +15,7 @@ try:
     return int(text)
 except ValueError:
     return 0
-    except:
+except ValueError:
         return 0
 =======
 os.remove(filename)
