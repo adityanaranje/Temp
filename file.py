@@ -13,7 +13,8 @@ for i in range(5):
     x = x + 2
 
 b = 1
-c = 1  # or any other non-zero value
+if c == 0:
+    raise ValueError('Cannot divide by zero')
 a = b / c
 
 b = (b / c) * c if c != 0 else 0  # or any other default value
