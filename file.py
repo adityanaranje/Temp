@@ -13,7 +13,7 @@ for i in range(5):
     x = x + 2
 
 b = 1
-c = 0
+c = 1  # or any other non-zero value
 a = b / c
 
 b = a * c
