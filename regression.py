@@ -17,5 +17,5 @@ def simple_linear_regression(x, y):
 
     return slope, intercept
 
-def multiply( a, b) :
-    return a / b
+def multiply(a, b):
+    return a * b
