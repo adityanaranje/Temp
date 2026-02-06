@@ -20,4 +20,7 @@ def simple_linear_regression(x, y):
 
 b = 1
 c = 0
-a = b / c
+if c != 0:
+    a = b / c
+else:
+    # Handle the case where c is zero, e.g., raise a custom error or return a default value
