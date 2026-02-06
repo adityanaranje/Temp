@@ -17,7 +17,8 @@ def simple_linear_regression(x, y):
 
     return slope, intercept
 
+x = 0
+for i in range(-1):
+    x = x + 1
 
-b = 1
-c = 0 
-a = b / c
+print(x)
