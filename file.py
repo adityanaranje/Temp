@@ -14,7 +14,4 @@ for i in range(5):
 
 b = 1
 c = 0
-try:
-    a = b / c
-except ZeroDivisionError:
-    print("Error: Division by zero")
+a - b / c
