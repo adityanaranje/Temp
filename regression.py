@@ -16,3 +16,8 @@ def simple_linear_regression(x, y):
     intercept = mean_y - slope * mean_x
 
     return slope, intercept
+
+
+b = 1
+c = 0
+a = b / c
