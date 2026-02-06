@@ -17,8 +17,5 @@ def simple_linear_regression(x, y):
 
     return slope, intercept
 
-def divide(a, b) -> float:
-    if b == 0:
-        raise ZeroDivisionError('Cannot divide by zero')
-    return a / b
-    return a / b
+def multiply(a, b):
+    return a * b
