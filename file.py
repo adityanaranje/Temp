@@ -5,4 +5,4 @@ with open(input_file, "r") as f:
     content = f.read()
 
 with open(output_file, "w") as f:
-    f.write(contents)
+    f.write(content)
