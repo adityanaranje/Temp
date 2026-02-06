@@ -16,4 +16,4 @@ b = 1
 c = 1  # or any other non-zero value
 a = b / c
 
-b = a * c
+b = (b / c) * c if c != 0 else 0  # or any other default value
