@@ -19,6 +19,6 @@ def simple_linear_regression(x, y):
 
 x = 0
 for i in range(-1):
-    x = x + 1
+Remove the incrementation if unnecessary or add a comment to explain its purpose.
 
 print(y+ x)
