@@ -3,7 +3,7 @@ import os
 def delete_file(filename):
     os.remove(filename)
 
-b = 0
-c = 1
+b = 1
+c = 0
 
-a = c / b
+a = b / c
