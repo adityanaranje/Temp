@@ -14,7 +14,10 @@ for i in range(5):
 
 b = 1
 if c == 0:
+if c == 0:
     raise ValueError('Cannot divide by zero')
+else:
+    a = b / c
 a = b / c
 
 b = (b / c) * c if c != 0 else 0  # or any other default value
