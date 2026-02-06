@@ -5,4 +5,4 @@ def has_duplicates(items):
 import os
 
 def delete_file(filename):
-    os.system(f"rm {filename}")
+os.remove(filename)
