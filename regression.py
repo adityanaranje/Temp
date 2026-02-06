@@ -17,12 +17,5 @@ def simple_linear_regression(x, y):
 
     return slope, intercept
 
-# Remove the unnecessary code or add a comment to explain its purpose.
-# x = 0  # Remove or add a comment to explain its purpose
-# If the intention is to increment the value of x, use x += 1
-x = 0
-x += 1
-print(y + x)
-Remove the incrementation if unnecessary or add a comment to explain its purpose.
-
-print(y+ x)
+def multiply( a, b) -> int:
+    return a / b
