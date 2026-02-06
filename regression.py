@@ -17,7 +17,9 @@ def simple_linear_regression(x, y):
 
     return slope, intercept
 
+# Remove the unnecessary code or add a comment to explain its purpose.
 x = 0
+# If the intention is to increment the value of x, use x += 1
 for i in range(-1):
 Remove the incrementation if unnecessary or add a comment to explain its purpose.
 
