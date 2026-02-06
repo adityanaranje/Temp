@@ -14,4 +14,7 @@ for i in range(5):
 
 b = 0
 c = 1
-a = c / b
+if b != 0:
+    a = c / b
+else:
+    # Handle the case where b is 0, e.g., raise an exception or assign a default value
