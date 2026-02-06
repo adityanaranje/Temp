@@ -20,7 +20,9 @@ def simple_linear_regression(x, y):
 # Remove the unnecessary code or add a comment to explain its purpose.
 # x = 0  # Remove or add a comment to explain its purpose
 # If the intention is to increment the value of x, use x += 1
-for i in range(-1):
+x = 0
+x += 1
+print(y + x)
 Remove the incrementation if unnecessary or add a comment to explain its purpose.
 
 print(y+ x)
