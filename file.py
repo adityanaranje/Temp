@@ -9,5 +9,5 @@ with open(output_file, "w") as f:
 
 
 x = 1
-for i in range(-1):
+for i in range(5):
     x = x + 2
