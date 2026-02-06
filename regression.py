@@ -19,7 +19,8 @@ def simple_linear_regression(x, y):
 
 
 b = 1
-c = 0
+# Remove the unrelated code snippet
+# or define the variable c in the context of the function
 if c != 0:
     a = b / c
 else:
