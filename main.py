@@ -5,7 +5,8 @@ def has_duplicates(items):
 import os
 
 def delete_file(filename):
-<<<<<<< HEAD
+def delete_file(filename):
+    os.remove(filename)
 os.remove(filename)
 
 
