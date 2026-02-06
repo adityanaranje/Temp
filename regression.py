@@ -16,3 +16,9 @@ def simple_linear_regression(x, y):
     intercept = mean_y - slope * mean_x
 
     return slope, intercept
+
+def divide(a, b) -> float:
+    if b == 0:
+        raise ZeroDivisionError('Cannot divide by zero')
+    return a / b
+    return a / b
