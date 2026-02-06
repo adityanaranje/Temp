@@ -12,14 +12,6 @@ x = 1
 for i in range(5):
     x = x + 2
 
-b = 1
-if c == 0:
-if c == 0:
-    raise ValueError('Cannot divide by zero')
-else:
-    a = b / c
-a = b / c
-
-b = (b / c) * c if c != 0 else 0  # or any other default value
-# can be rewritten as
-b = (b / c) * c if c != 0 else 0
+b = 0
+c = 1
+a = c / b
