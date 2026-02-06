@@ -25,6 +25,9 @@ try:
     return int(text)
 except ValueError:
     return 0
+    return int(text)
+except ValueError:
+    return 0
 except ValueError:
         return 0
 =======
