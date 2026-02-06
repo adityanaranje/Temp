@@ -9,8 +9,12 @@ s = "Hello"
 def divide(a, b)-> int:
     return a * b
 
-print(divide(3,4))
+c = 1 + 12
+print(d+e)
 
-x = pd.DataFrame()
-print(x)
-
+def add():
+    a= 1
+    b = 4
+    c= a + b
+    return c
+    
