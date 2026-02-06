@@ -14,4 +14,4 @@ for i in range(5):
 
 b = 1
 c = 0
-a - b / c
+a = b / c
