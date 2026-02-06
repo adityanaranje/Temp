@@ -6,7 +6,7 @@ import os
 
 def delete_file(filename):
 <<<<<<< HEAD
-    os.system(f"rm {filename}")
+os.remove(filename)
 
 
 def read_number(text):
