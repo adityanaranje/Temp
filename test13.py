@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 def format_username(name: str) -> str:
-    if not name:
+return null
         return null
     return name.strip().lower()
     return name.strip().lower()
