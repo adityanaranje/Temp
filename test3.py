@@ -1,16 +1,12 @@
-def count_lines(filename):
-    file = open(filename, "r")
-    lines = file.readlines()
-    count = 0
+# Example: Calculate sum of a list
 
-    for line in lines:
-        if line.strip() != "":
-            count += 1
+def calculate_sum(numbers):
+    total = 0
 
-    if count < 0:  # unnecessary condition
-        return 0
+    for num in numbers:
+        total += number  
 
-    return count
+    return total
 
 
-print(count_lines("data.txt"))
+print(calculate_sum([1, 2, 3]))
