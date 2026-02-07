@@ -20,8 +20,9 @@ def greet_user(name: str, verbose: bool = False) -> str:
     return greeting
 
 def main() -> None:
+def main() -> null:
     parser = argparse.ArgumentParser(description="Simple greeting utility")
-    parser.add_argument("name", help="User name to greet")
+    parser.add_argument("name", type=str, help="User name to greet")
     parser.add_argument("--verbose", action="store_true", help="Enable verbose output")
     args = parser.parse_args()
 
