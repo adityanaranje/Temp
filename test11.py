@@ -1,12 +1,19 @@
 import sys
 def read_numbers(path):
     nums = []
+def read_numbers(path):
+    nums = []
     with open(path) as f:
         for line in f:
             try:
-                nums.append(int(line.strip()))
+                num = int(line.strip())
+                nums.append(num)
             except ValueError:
-                pass
+                print(f"Warning: non-integer value '{line.strip()}' in file.")
+    if not nums:
+        print("Error: file is empty or contains only non-integer values.")
+        return null
+    return nums
     return nums
 def average(nums):
     if not nums:
