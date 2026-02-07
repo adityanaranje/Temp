@@ -9,4 +9,3 @@ def find_max_value(values):
 
 
 numbers = [-5, -2, -10]
-print(find_max_value(numbers))
