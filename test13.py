@@ -25,11 +25,8 @@ def main() -> null:
     parser.add_argument("name", type=str, help="User name to greet")
     parser.add_argument("--verbose", action="store_true", help="Enable verbose output")
     args = parser.parse_args()
-
-    try:
-        message = greet_user(args.name, args.verbose)
-        logger.info(message)
-    except ValueError as exc:
+message = greet_user(args.name, args.verbose)
+logger.info(message)
         logger.error("Failed to generate greeting: %s", exc)
 
 if __name__ == "__main__":
