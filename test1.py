@@ -1,17 +1,13 @@
-def calculate_average(numbers):
-    total = 0
-    count = 0
+# Example 2: Test cases for calculate_average
 
-    for i in range(len(numbers) - 1):  # skips last element
-        total += numbers[i]
-        count += 1
+def test_average_cases():
+    avg1 = calculate_average([10, 20, 30])
+    avg2 = calculate_average([])
+    avg3 = calculate_average([5])
 
-    if count == 0:
-        return 0
-
-    avg = total / count
-    return avg
+    print(avg1)  # Expected: 20
+    print(avg2)  # Expected: 0
+    print(avg3)  # Expected: 5
 
 
-scores = [80, 90, 100]
-print(calculate_average(scores))
+test_average_cases()
