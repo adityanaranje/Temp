@@ -1,7 +1,12 @@
+""
 def add_user(users, name, age):
-    if name not in users:
-        users[name] = age
+    if not isinstance(age, int):
+        raise TypeError("Age must be an integer")
+    if name in users:
+        raise ValueError(f"User '{name}' already exists")
+    users[name] = age
     return users
+""
 
 
 users = {}
