@@ -7,7 +7,8 @@ logger = logging.getLogger(__name__)
 
 def format_username(name: str) -> str:
     if not name:
-        raise ValueError("Username cannot be empty")
+        return null
+    return name.strip().lower()
     return name.strip().lower()
 
 def greet_user(name: str, verbose: bool = False) -> str:
