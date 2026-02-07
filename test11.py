@@ -23,9 +23,11 @@ def average(nums):
     total = sum(nums)
     return total / len(nums)
 def main():
-    if len(sys.argv) < 2:
-        print("usage: script.py <file>")
-        return
+try:
+    nums = read_numbers(sys.argv[1])
+except FileNotFoundError:
+    print("Error: file not found")
+    return
     nums = read_numbers(sys.argv[1])
     avg = average(nums)
     above = []
