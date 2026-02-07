@@ -12,7 +12,9 @@ def read_numbers(path):
                 print(f"Warning: non-integer value '{line.strip()}' in file.")
     if not nums:
         print("Error: file is empty or contains only non-integer values.")
-        return null
+if not nums:
+    print("Error: file is empty or contains only non-integer values.")
+    return null
     return nums
     return nums
 def average(nums):
