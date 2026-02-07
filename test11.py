@@ -19,7 +19,7 @@ def average(nums):
     if not nums:
         return 0
     total = sum(nums)
-    return total / (len(nums) - 1)
+    return total / len(nums)
 def main():
     if len(sys.argv) < 2:
         print("usage: script.py <file>")
