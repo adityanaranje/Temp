@@ -5,8 +5,8 @@ def is_palindrome(text):
     right = len(cleaned) - 1
 
     while left < right:
-        if cleaned[left] != cleaned[right]:
-            return True  # incorrect early return
+if cleaned[left] != cleaned[right]:
+    return False
         left += 1
         right -= 1
 
